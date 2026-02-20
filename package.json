@@ -1,0 +1,18 @@
+{
+  "name": "pitchup-qa",
+  "version": "1.0.0",
+  "description": "Playwright QA automation suite for pitchup.com",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:mobile": "npx playwright test --project=mobile",
+    "test:desktop": "npx playwright test --project=desktop",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "typescript": "^5.7.0"
+  }
+}

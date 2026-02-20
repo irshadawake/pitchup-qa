@@ -1,0 +1,6 @@
+node_modules/
+.auth/
+.chrome-profile/
+test-results/
+playwright-report/
+dist/
